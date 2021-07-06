@@ -1,6 +1,6 @@
 <template>
 
-  <div class="container">
+  <div class="container header">
       
         <img src="../assets/dc-logo.png" alt="Logo DC">
 
@@ -91,27 +91,31 @@ export default {
     display: flex;
 }
 
-
-img
+.header
 {
-    width: 80px;
-  
+    height: 90px;
 }
+
+
+
 
 ul
 {
-    margin-left: 70px;
-    margin-top: 18px;
+    margin-left: 80px;
+    line-height: 90px;
 }
 
 li
 {
     display: inline-block;
-    padding: 10px;
+    padding-left: 20px;
+
   
     a
     {
         font-size: 14px;  
+        color: black;
+        
         
         &:hover
         {
@@ -121,8 +125,7 @@ li
 
     &.active 
     {
-        border-bottom: 2px solid blue;
-        // padding: 20px;
+        border-bottom: 5px solid blue;
     }
 }
 
