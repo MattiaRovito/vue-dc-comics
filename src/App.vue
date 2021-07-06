@@ -4,10 +4,10 @@
     <Header/>
 
 
-    <Main/>
+    <!-- <Main/> -->
 
 
-    <Footer/>
+    <!-- <Footer/> -->
 
 
     
@@ -17,15 +17,15 @@
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 import Header from './components/Header.vue'
-import Main from './components/Main.vue'
-import Footer from './components/Footer.vue'
+// import Main from './components/Main.vue'
+// import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
-    Main,
-    Footer
+    // Main,
+    // Footer
   }
 }
 </script>
@@ -33,5 +33,6 @@ export default {
 <style lang="scss">
 
 @import 'style/commons.scss';
+@import 'style/vars.scss';
 
 </style>
