@@ -8,9 +8,29 @@
 
 body {
  font-family: 'Roboto', sans-serif;
+
+    a
+    {
+        text-decoration: none;
+        color: black;
+    }
+    
+    li
+    {
+        list-style: none;
+    }
+
 }
 
-.container {
+.container 
+{
     width: 1040px;
     margin: auto;
 }
+
+.uppercase
+{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
