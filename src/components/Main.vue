@@ -89,12 +89,13 @@ main
     ul
     {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         line-height: 120px;
 
         a
         {
             color: white;
+            font-size: 14px;
         }
         
     }

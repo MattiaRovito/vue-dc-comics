@@ -115,6 +115,7 @@ li
     {
         font-size: 14px;  
         color: black;
+        font-weight: bold;
         
         
         &:hover
