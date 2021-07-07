@@ -2,7 +2,9 @@
 
 <div class="jumbo-space">
     
-    <h2 class="series uppercase">Current Series</h2>
+    <a href="#">
+      <h2 class="series uppercase">Current Series</h2>
+    </a>
 
 </div>
   
@@ -39,8 +41,9 @@ export default {
       background-color: #0282f9;
       width: 18%;
       position: absolute;
-      bottom: -15px;
+      bottom: -18px;
       left: 165px;
+      z-index: 20;
     }
 
 }

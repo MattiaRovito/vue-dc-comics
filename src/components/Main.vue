@@ -11,6 +11,9 @@
 
                 
             </div>
+            <a href="#"> 
+                <h3 class="uppercase txt">Load More</h3>
+            </a>
         </div>
         
 
@@ -66,9 +69,23 @@ main
     .main-top
     {
         background-color: #1c1c1c;
-        height: 500px;
-        padding: 20px
+        height: 550px;
+        padding: 20px;
+        position: relative;
+
+        
     }
+
+    .txt 
+        {
+            color: white;
+            position: absolute;
+            bottom: 35px;
+            left: 600px;
+            background-color: #0282f9;
+            padding: 10px 20px;
+            
+        }
 
     .main-bottom
     {

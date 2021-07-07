@@ -42,6 +42,12 @@ export default {
         float: left;
         width: 15%;
         padding: 20px;
+
+        &:hover
+        {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
     }
 
    
