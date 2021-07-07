@@ -66,7 +66,7 @@ main
     .main-top
     {
         background-color: #1c1c1c;
-        height: 600px;
+        height: 500px;
         padding: 20px
     }
 
@@ -100,7 +100,7 @@ main
 
     .image
     {
-        width: 30%;
+        width: 40%;
         padding: 10px;
         vertical-align: middle;
     }

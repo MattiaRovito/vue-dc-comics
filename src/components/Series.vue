@@ -6,6 +6,8 @@
             <img class="img" :src="prod.thumb" :alt="prod.series">
             <!-- <p>{{prod.series}}</p> -->
         </div>
+
+        <!-- <h3 class="uppercase">Load More</h3> -->
         
     </div>
  
@@ -23,6 +25,8 @@ export default {
 
 .current-series
 {
+
+    
 
     .clearfix::after 
     {
@@ -45,7 +49,6 @@ export default {
 p
 {
     color: white;
-    // display: block;
 }
 
 
