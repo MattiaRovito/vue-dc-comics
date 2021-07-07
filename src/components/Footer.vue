@@ -9,24 +9,24 @@
               <nav >
                   <h3 class="uppercase">DC Comics</h3>
                   <ul>
-                    <li>Characters</li>
-                    <li>Comics</li>
-                    <li>Movies</li>
-                    <li>TV</li>
-                    <li>Games</li>
-                    <li>Videos</li>
-                    <li>News</li>
+                    <li><a href="#">Characters</a></li>
+                    <li><a href="#">Comics</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">TV</a></li>
+                    <li><a href="#">Games</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">News</a></li>
                   </ul>
               </nav>
               <nav>
                   <h3 class="uppercase">Shop</h3>
                   <ul>
-                    <li>Characters</li>
-                    <li>Comics</li>
+                    <li><a href="#">Shop DC</a></li>
+                    <li><a href="#">Shop DC Collectibles</a></li>
                     
                   </ul>
               </nav>
-              
+
 
              <div class="logo-dx">
                <img src="../assets/dc-logo-bg.png" alt="DC logo bg">
@@ -37,13 +37,36 @@
 
         <div class="footer-bottom clearfix">
             <div class="container">
-              <h3 class="uppercase">Sign-Up Now!</h3>
-              <img class="float-right padding" src="@/assets/footer-facebook.png" alt="">
-              <img class="float-right padding" src="@/assets/footer-twitter.png" alt="">
-              <img class="float-right padding" src="@/assets/footer-youtube.png" alt="">
-              <img class="float-right padding" src="@/assets/footer-pinterest.png" alt="">
-              <img class="float-right padding" src="@/assets/footer-periscope.png" alt="">
-              <h2 class="uppercase float-right">Follow Us</h2>
+              <a href="#">
+                <h3 class="uppercase">Sign-Up Now!</h3>
+              </a>
+
+              <a href="#">
+                  <img class="float-right padding" src="@/assets/footer-facebook.png" alt="">
+              </a>
+              
+              <a href="#">
+                  <img class="float-right padding" src="@/assets/footer-twitter.png" alt="">
+              </a>
+              
+              <a href="#">
+                  <img class="float-right padding" src="@/assets/footer-youtube.png" alt="">
+              </a>
+              
+              <a href="#">
+                  <img class="float-right padding" src="@/assets/footer-pinterest.png" alt="">
+              </a>
+              
+              <a href="#">
+                  <img class="float-right padding" src="@/assets/footer-periscope.png" alt="">
+              </a>
+              
+              
+              
+              
+              <a href="#">
+                <h2 class="uppercase float-right">Follow Us</h2>
+              </a>
              
             </div>
         </div>
@@ -75,7 +98,7 @@ export default {
   z-index: 3;
   position: relative;
 
-
+   
     
     .logo-dx
     {
@@ -104,7 +127,10 @@ export default {
 
       li
       {
-        color: #959595;
+          a
+          {
+            color: #959595;
+          }
       }
     }
 
