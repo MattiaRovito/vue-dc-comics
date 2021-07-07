@@ -6,7 +6,24 @@
         <div class="footer-top">
            <div class="container">
              <nav>
-
+                <h3 class="uppercase">DC Comics</h3>
+                <ul>
+                  <li>Characters</li>
+                  <li>Comics</li>
+                  <li>Movies</li>
+                  <li>TV</li>
+                  <li>Games</li>
+                  <li>Videos</li>
+                  <li>News</li>
+                </ul>
+             </nav>
+             <nav>
+                <h3 class="uppercase">Shop</h3>
+                <ul>
+                  <li>Characters</li>
+                  <li>Comics</li>
+                  
+                </ul>
              </nav>
 
              <div class="logo-dx">
@@ -58,6 +75,22 @@ export default {
           right: 40px;
           z-index: 2;
         }
+    }
+
+    nav
+    {
+      color:white;
+      padding: 15px;
+     
+      h3
+      {
+         margin-bottom: 15px;
+      }
+
+      li
+      {
+        color: #959595;
+      }
     }
 }
 
