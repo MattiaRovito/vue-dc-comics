@@ -13,7 +13,12 @@
             <div class="container">
                 <nav>
                     <ul>
-                      <li class="uppercase" v-for="(item, index) in items" :key="index"><a :href="item.url">{{ item.text }} </a></li>
+                        <li class="uppercase" v-for="(item, index) in items" :key="index">
+                            <a href="#">
+                                <img class="image" :src="item.img" alt="item.text">
+                                {{item.text}} 
+                            </a>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -29,31 +34,27 @@ export default {
   name: 'Main',
   data() {
     return {
+            
             items: [
                 {
                     text: 'Digital Comics',
-                    url: '#',
-                    img:  'buy-comics',                  
+                    img:  require('../assets/buy-comics-digital-comics.png')             
                 },
                 {
                     text: 'DC Merchandise',
-                    url: '#',
-                    img: 'buy-comics',              
+                    img: require('../assets/buy-comics-merchandise.png')            
                 },
                 {
                     text: 'Subscription',
-                    url: '#',
-                    img: 'buy-comics',                   
+                    img: require('../assets/buy-comics-subscriptions.png')                   
                 },
                 {
                     text: 'Comic Shop Locator',
-                    url: '#',
-                    img: 'buy-comics',                   
+                    img: require('../assets/buy-comics-shop-locator.png')                   
                 },
                 {
                     text: 'DC Power Visa',
-                    url: '#',
-                    img: 'buy-comics',                    
+                    img: require('../assets/buy-dc-power-visa.png')                    
                 }
             ]
         }
@@ -89,8 +90,9 @@ main
     ul
     {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         line-height: 120px;
+        
 
         a
         {
@@ -100,7 +102,12 @@ main
         
     }
 
-
+    .image
+    {
+        width: 30%;
+        padding: 10px;
+        vertical-align: middle;
+    }
 }
 
 

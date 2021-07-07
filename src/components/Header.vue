@@ -6,7 +6,9 @@
 
         <nav>
           <ul>
-            <li class="uppercase" v-for="(voice, index) in voices" :key="index" :class="{active:voice.current}"><a :href="voice.url">{{ voice.text }} </a></li>
+            <li class="uppercase" v-for="(voice, index) in voices" :key="index" :class="{active:voice.current}">
+                <a :href="voice.url">{{ voice.text }} </a>
+            </li>
           </ul>
         </nav>
       
@@ -94,6 +96,7 @@ export default {
 .header
 {
     height: 90px;
+    padding: 10px;
 }
 
 
@@ -102,14 +105,14 @@ export default {
 ul
 {
     margin-left: 80px;
-    line-height: 90px;
+    line-height: 70px;
 }
 
 li
 {
     display: inline-block;
-    padding-left: 20px;
-
+    margin-left: 20px;
+    padding-bottom: 4px;
   
     a
     {
@@ -127,6 +130,8 @@ li
     &.active 
     {
         border-bottom: 5px solid blue;
+        color: blue;
+
     }
 }
 

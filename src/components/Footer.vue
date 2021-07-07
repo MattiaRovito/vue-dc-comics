@@ -52,7 +52,7 @@ export default {
 
         img
         {
-          height: 400px;
+          height: 350px;
           position: absolute;
           top: -50px;
           right: 40px;
